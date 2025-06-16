@@ -1162,6 +1162,8 @@ pub struct Window {
     pub is_floating: bool,
     /// Whether this window requests your attention.
     pub is_urgent: bool,
+    /// Offset of screen for this window
+    pub view_offset: f64,
 }
 
 /// Output configuration change result.
